@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday! 🎂</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background">
+        <div class="stars"></div>
+
+        <div class="balloon balloon-1">🎈</div>
+        <div class="balloon balloon-2">🎈</div>
+        <div class="balloon balloon-3">🎈</div>
+        <div class="balloon balloon-4">🎈</div>
+    </div>
+
+    <main class="container">
+
+        <!-- INTRO -->
+        <section class="screen active" id="intro">
+
+            <div class="birthday-card">
+
+                <div class="gift">🎁</div>
+
+                <h1>Happy Birthday! 🎂</h1>
+
+                <p class="subtitle">
+                    I made a little birthday surprise for you!
+                </p>
+
+                <p class="small-text">
+                    There's a tiny game inside... 👀
+                </p>
+
+                <button class="main-button" id="startButton">
+                    Open Your Gift 🎁
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- GAME -->
+        <section class="screen" id="game">
+
+            <div class="game-header">
+
+                <h2>Catch the Cakes! 🎂</h2>
+
+                <div class="score-box">
+                    Cakes: <span id="score">0</span> / 10
+                </div>
+
+            </div>
+
+            <p class="game-info">
+                Catch 10 falling cakes to unlock your birthday surprise!
+            </p>
+
+            <div class="game-area" id="gameArea">
+
+                <div class="player" id="player">
+                    🧺
+                </div>
+
+            </div>
+
+            <div class="mobile-controls">
+
+                <button id="leftButton">◀</button>
+
+                <button id="rightButton">▶</button>
+
+            </div>
+
+        </section>
+
+
+        <!-- WIN -->
+        <section class="screen" id="win">
+
+            <div class="birthday-card">
+
+                <div class="final-cake">
+
+                    <div class="candle candle-one">
+                        <div class="flame"></div>
+                    </div>
+
+                    <div class="candle candle-two">
+                        <div class="flame"></div>
+                    </div>
+
+                    <div class="candle candle-three">
+                        <div class="flame"></div>
+                    </div>
+
+                    <div class="cake-top"></div>
+                    <div class="cake-middle"></div>
+                    <div class="cake-bottom"></div>
+
+                </div>
+
+                <h1>YOU DID IT! 🎉</h1>
+
+                <p class="final-message">
+                    Happy Birthday! 🎂
+                </p>
+
+                <p class="message">
+                    Hope your day is full of fun, laughter,
+                    amazing memories and lots of cake! ✨
+                </p>
+
+                <button class="main-button" id="againButton">
+                    Play Again 🎮
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <div id="confetti-container"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
